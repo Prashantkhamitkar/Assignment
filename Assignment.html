@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Course Learning Page</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <!-- Header -->
+        <header class="row">
+            <div class="col-12">
+                <h1 class="text-center">Course Dashboard</h1>
+            </div>
+            <div class="col-12">
+                <!-- Language Selection -->
+                <select id="languageSelect" class="form-control float-right w-auto">
+                    <option value="en">English</option>
+                    <option value="fr">French</option>
+                    <!-- Add more languages as needed -->
+                </select>
+            </div>
+        </header>
+
+        <!-- Navigation -->
+        <nav class="row">
+            <div class="col-12">
+                <ul class="list-group">
+                    <!-- Main Sections -->
+                    <li class="list-group-item"><a href="#section1">Section 1</a></li>
+                    <li class="list-group-item"><a href="#section2">Section 2</a></li>
+                    <!-- Add more sections as needed -->
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="row">
+            <div class="col-md-6">
+                <!-- Section 1: Introduction -->
+                <section id="section1">
+                    <h2>Section 1: Introduction</h2>
+                    <!-- Subsection with Video Player -->
+                    <div class="card">
+                        <div class="card-body">
+                            <h3>Subsection 1.1: Introduction Video</h3>
+                            <!-- Video Player -->
+                            <div class="video-container">
+                                <iframe class="iframe-class" src="https://www.youtube.com/embed/sq8Xzw7X3EQ?si=UQypW8FWJ9HdDP-Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Add more subsections as needed -->
+                </section>
+            </div>
+            <div class="col-md-6">
+                <!-- Section 2: Advanced Topics -->
+                <section id="section2">
+                    <h2>Section 2: Advanced Topics</h2>
+                    <!-- Subsection with Audio Player -->
+                    <div class="card">
+                        <div class="card-body">
+                            <h3>Subsection 2.1: Advanced Audio</h3>
+                            <!-- Audio Player -->
+                            <audio controls>
+                                <source src="000b-vocales_abecedario.mp3" type="audio/mpeg">
+                                Your browser does not support the audio tag.
+                            </audio>
+                        </div>
+                    </div>
+                    <!-- Add more subsections as needed -->
+                </section>
+            </div>
+            <!-- Add more sections as needed -->
+        </main>
+
+        <!-- Footer -->
+        <footer class="row  text-light">
+            <div class="col-12">
+                <p>&copy; 2024 Interactive Course Learning. All rights reserved.</p>
+                <p>Contact us: smriti@internshala.com</p>
+                <p>Follow us on <a href="smriti@internshala.com" target="_blank">Email</a> | <a href="https://facebook.com/example" target="_blank">Facebook</a></p>
+            </div>
+        </footer>
+        
+    </div>
+
+    <!-- Bootstrap JS and jQuery (required for Bootstrap) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+
+</html>
